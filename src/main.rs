@@ -3,10 +3,10 @@ use lettre::{Message, SmtpTransport, Transport};
 
 
 fn main() {
-    let smtp_key = "xsmtpsib-ca732fba61fe306291965130c51fcb29b9060ad4e5225778ea17ea3a879d479d-DqFba9tYIhEKSkJB";
-    let from_email = "stacknewbie@gmail.com";
-    let host = "smtp-relay.brevo.com";
-    let to_email = "irfanghat@gmail.com";
+    let smtp_key = "";
+    let from_email = "";
+    let host = "";
+    let to_email = "";
 
     let email: Message = Message::builder()
         .from(from_email.parse().unwrap())
